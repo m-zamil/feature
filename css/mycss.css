@@ -1,207 +1,191 @@
 @font-face {
-    font-family: 'dr';
-    src: url('../fonts/DMSans-Regular.ttf');
-       
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'dm';
-    src: url('../fonts/DMSans-Medium.ttf');
-       
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'db';
-    src: url('../fonts/DMSans-Bold.ttf');
-       
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'dl';
-    src: url('../fonts/BrownStd-Light.otf');
-       
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-#btxt
-{
-color:#fff;
-font-size:45px;
-margin-top:200px;
-}
-.section1
-{
-width:100%;
-height:auto;
-padding:0px;
-margin:0px;
-float:left;
-}
-.leftbar
-{
-background:#fbfbfc;
-width:25%;
-height:600px;
-padding:0px;
-margin:0px;
-float:left;
-}
-.rightbar
-{
-background:#fff;
-width:75%;
-height:600px;
-padding:0px;
-margin:0px;
-float:right;
-}
-.content
-{
-max-width:80%;
- height:auto;
- margin: 0px auto;
- overflow:hidden;
-}
-.leftbar ul
-{
-margin:0px;
-margin-top:50px;
-padding:0px;
-float:left;
-}
-.leftbar ul li
-{
-margin:0px;
-padding:0px;
+  font-family: "dr";
+  src: url("../fonts/DMSans-Regular.ttf");
 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "dm";
+  src: url("../fonts/DMSans-Medium.ttf");
 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-.leftbar ul li a
-{
-display:block;
-font-family:'db',Arial, Helvetica, sans-serif;
-font-size:18px;
-margin:0px;
-margin-left:40px;
-padding:0px;
-padding-top:0px;
-padding-bottom:20px;
+@font-face {
+  font-family: "db";
+  src: url("../fonts/DMSans-Bold.ttf");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-.faq
-{
-width:100%;
-height:auto;
-padding:0px;
-margin:0px;
-margin-top:40px;
-float:left;
+@font-face {
+  font-family: "dl";
+  src: url("../fonts/BrownStd-Light.otf");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-.faq h1
-{
-width:100%;
-height:auto;
-font-family:'db',Arial, Helvetica, sans-serif;
-font-size:40px;
-padding:0px;
-margin:0px;
-text-align:left;
-float:left;
+#btxt {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 200px;
 }
-.question
-{
-width:100%;
-height:auto;
-padding:0px;
-margin:0px;
-margin-top:30px;
-cursor:pointer;
-float:left;
+.section1 {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
 }
-.question h2
-{
-width:100%;
-height:auto;
-font-family:'dr',Arial, Helvetica, sans-serif;
-font-size:20px;
-padding:0px;
-margin:0px;
-margin-left:5px;
-text-align:left;
-font-weight:normal;
-float:left;
+.leftbar {
+  background: #fbfbfc;
+  width: 25%;
+  height: 600px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
 }
-.question p
-{
-width:100%;
-height:auto;
-font-family:'dr',Arial, Helvetica, sans-serif;
-font-size:15px;
-line-height:22px;
-padding:0px;
-margin:0px;
-margin-top:20px;
-margin-left:5px;
-text-align:left;
-font-weight:normal;
-float:left;
+.rightbar {
+  background: #fff;
+  width: 75%;
+  height: 600px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  overflow: auto;
 }
-#tstrip
-{
-display:none;
+.section1 {
+  overflow: auto;
+  background: #fbfbfc;
 }
-.question ul
-{
-list-style:circle;
-list-style-position:outside;
-list-style-type:circle;
+.section1::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.question ul li
-{
-display:block;
-font-family:'dr',Arial, Helvetica, sans-serif;
-line-height:30px;
+.content {
+  max-width: 80%;
+  height: auto;
+  margin: 0px auto;
+  overflow: hidden;
 }
-@media (max-width: 1000px){
-.content
-{
-max-width:90%;
+.leftbar ul {
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  float: left;
 }
-.leftbar
-{
-display:none;
+.leftbar ul li {
+  margin: 0px;
+  padding: 0px;
 }
-.rightbar
-{
-width:100%;
-height:auto;
+.leftbar ul li a {
+  display: block;
+  font-family: "db", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 40px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
-.faq h1
-{
-font-size:30px;
+.faq {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 40px;
+  float: left;
 }
-.question h2
-{
-font-size:15px;
+.faq h1 {
+  width: 100%;
+  height: auto;
+  font-family: "db", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  float: left;
 }
-.question
-{
-margin-top:10px;
-border-bottom:#000 thin solid;
-padding-bottom:10px;
+.question {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+  float: left;
 }
-#btxt
-{
-display:none;
+.question h2 {
+  width: 100%;
+  height: auto;
+  font-family: "dr", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  text-align: left;
+  font-weight: normal;
+  float: left;
 }
-#tstrip
-{
-display:block;
+.question p {
+  width: 100%;
+  height: auto;
+  font-family: "dr", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: left;
+  font-weight: normal;
+  float: left;
 }
+#tstrip {
+  display: none;
+}
+.question ul {
+  list-style: circle;
+  list-style-position: outside;
+  list-style-type: circle;
+}
+.question ul li {
+  display: block;
+  font-family: "dr", Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+@media (max-width: 1000px) {
+  .content {
+    max-width: 90%;
+  }
+  .leftbar {
+    display: none;
+  }
+  .rightbar {
+    width: 100%;
+    height: auto;
+  }
+  .faq h1 {
+    font-size: 30px;
+  }
+  .question h2 {
+    font-size: 15px;
+  }
+  .question {
+    margin-top: 10px;
+    border-bottom: #000 thin solid;
+    padding-bottom: 10px;
+  }
+  #btxt {
+    display: none;
+  }
+  #tstrip {
+    display: block;
+  }
 }
