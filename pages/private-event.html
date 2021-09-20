@@ -15,40 +15,92 @@
         <a href="#" class="nav-logo"><img src="../images/logo-transparent.png" alt="" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">What is Feature</a>
+            <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Feature For Artists</a>
+            <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
           </li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="menu__drawer">
+          <ul class="nav-menu--mobile">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./artist.html" class="nav-link">Artist</a>
+            </li>
+            <li class="nav-item">
+              <a href="./meetgreet.html" class="nav-link">Meet & Greet</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Private Event Booking</a>
+            </li>
+            <li class="nav-item">
+              <a href="../explore.html" class="nav-link">Explore What You Love</a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="../contact.html" class="nav-link">Contact Us </a>
+            </li>
+            <li class="nav-item">
+              <a href="../onboarding.html" class="nav-link">Onboarding 1 </a>
+            </li>
+            <li class="nav-item">
+              <a href="../onboarding1.html" class="nav-link">Onboarding 2</a>
+            </li>
+
+            <div class="desktop-hidden">
+              <li class="nav-item">
+                <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+              </li>
+            </div>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
       </nav>
     </header>
     <main>
       <section class="hero bg-gray">
-        <h1 class="section__title">
+        <h1 class="section__title desktop-show">
           Book Your <br />
           Favorite Artist
         </h1>
-        <div class="hero__image flex">
+        <h1 class="section__title text-left desktop-hidden">
+          Book Your <br />
+          Favorite Artist
+        </h1>
+        <div class="desktop-hidden meetgreet-hero-img text-center">
+          <img class="w-100" src="../images/Meet-n-Greet-mobile.png" alt="" />
+        </div>
+        <div class="hero__image flex desktop-show d-flex">
           <img class="img-1" src="../images/pre-gallery.png" alt="" height="350" />
-          <img class="img-2" src="../images/Live Enterntainment Your Way.png" alt="" />
+          <img class="img-2" src="../images/Phone Mock.png" alt="" />
           <img class="img-3" src="../images/post-gallery.png" alt="" height="350" />
         </div>
       </section>
       <section class="meet__celeb bg-orange">
-        <div class="content" style="max-width: 80%; height: auto; margin: 0px auto; overflow: hidden">
-          <h1 style="" id="big">Feature creates ever-changing<br />dynamic experiences.</h1>
-        </div>
+        <h2 class="section__title">
+          Feature creates ever-changing <br />
+          dynamic experiences.
+        </h2>
         <div class="meet__celeb--content flex">
-          <div class="text-center"><img src="../images/Meet.png" alt="" /></div>
+          <div class="text-center"><img class="media__image" src="../images/event.png" alt="" /><img src="../images/Video PNGs 2.png" alt="" style="max-height: 330px" /></div>
         </div>
       </section>
       <section class="front">
@@ -77,10 +129,17 @@
       </section>
       <section class="make__conn">
         <div class="make__conn--text">
-          <h2>Making Moments</h2>
-          <p style="line-height: 24px">Connecting real life experiences<br />with our digital platform.</p>
+          <h2 class="desktop-show">
+            Making <br />
+            Moments
+          </h2>
+          <h2 class="desktop-hidden">Making Moments</h2>
+          <p style="font-size: 1.2rem">
+            Connecting real life experiences <br />
+            with our digital platform.
+          </p>
         </div>
-        <div class="make__conn--img" style="background: #ec812d">
+        <div class="make__conn--img" style="background-color: #f5881f">
           <img src="../images/Video PNGs 2.png" alt="" height="400px" />
         </div>
       </section>

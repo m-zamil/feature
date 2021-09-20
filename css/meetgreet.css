@@ -204,4 +204,7 @@
   .make__conn--img {
     background-color: rgb(216, 35, 35);
   }
+  .media__image {
+    display: none;
+  }
 }
