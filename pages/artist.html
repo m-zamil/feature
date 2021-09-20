@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feature App</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/artist.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"><img src="../images/logo-transparent.png" alt="" /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+          </li>
+        </ul>
+        <div class="menu__drawer">
+          <ul class="nav-menu--mobile">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Artist</a>
+            </li>
+            <li class="nav-item">
+              <a href="./meetgreet.html" class="nav-link">Meet & Greet</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="./private-event.html" class="nav-link">Private Event Booking</a>
+            </li>
+            <li class="nav-item">
+              <a href="../explore.html" class="nav-link">Explore What You Love</a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="../contact.html" class="nav-link">Contact Us </a>
+            </li>
+            <li class="nav-item">
+              <a href="../onboarding.html" class="nav-link">Onboarding 1 </a>
+            </li>
+            <li class="nav-item">
+              <a href="../onboarding1.html" class="nav-link">Onboarding 2</a>
+            </li>
+
+            <div class="desktop-hidden">
+              <li class="nav-item">
+                <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+              </li>
+            </div>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="section__title desktop-show">
+          Feature allows you <br />
+          to connect directly <br />
+          with your supporters
+        </h1>
+        <h1 class="section__title desktop-hidden">
+          Easily Connect <br />
+          Directly to Your <br />
+          Fanbase
+        </h1>
+      </section>
+      <section class="showcase">
+        <div class="showcase__content">
+          <h2 class="desktop-hidden">
+            Fans and entertainers <br />
+            have never been more <br />
+            connected.
+          </h2>
+          <h2 class="desktop-show">Feature showcases the newest technology in the entire digital social marketplace. Fans and entertainers have never been more connected.</h2>
+        </div>
+        <div class="showcase__image bg-transparent-mb">
+          <img class="desktop-show m-auto" src="../images/Phone Mock.png" alt="" height="450" />
+          <img class="desktop-hidden" src="../images/news-mobile.png" alt="" />
+        </div>
+      </section>
+      <!-- Feature slider -->
+      <div class="slideshow-container">
+        <div class="mySlides mySlides-0 fade" style="display: none !important">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Feature is Revolutionary</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(2)">Brands</li>
+                  <li onclick="currentSlide(3)">Venues</li>
+                  <li onclick="currentSlide(4)">Fans</li>
+                  <li onclick="currentSlide(5)">Entertainers</li>
+                </ul>
+                <p>
+                  Feature connects the live <br />
+                  entertainment economy, bringing <br />
+                  together fans, artists, venues, and <br />
+                  brands into one platform.
+                </p>
+                <div class="dots-wrapper">
+                  <span class="dot active" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/slider-1.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-1 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Feature Front & Center</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(2)">Brands</li>
+                  <li onclick="currentSlide(3)">Venues</li>
+                  <li onclick="currentSlide(4)">Fans</li>
+                  <li onclick="currentSlide(5)">Entertainers</li>
+                </ul>
+                <p>
+                  Sponsor events, book <br />
+                  talent, and place ads <br />
+                  throughout the Feature <br />
+                  mobile app.
+                </p>
+                <div class="dots-wrapper">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot active" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+              <div class="desktop-show features__slider--image" style="justify-content: flex-start"><img src="../images/entertainment-1.png" alt="" style="max-width: 550px" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-2 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Seamless</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(2)">Brands</li>
+                  <li onclick="currentSlide(3)">Venues</li>
+                  <li onclick="currentSlide(4)">Fans</li>
+                  <li onclick="currentSlide(5)">Entertainers</li>
+                </ul>
+                <p>
+                  Book talent and live stream events <br />
+                  on Feature to drive additional <br />
+                  revenue and foot traffic.<br />
+                  &nbsp;
+                </p>
+                <div class="dots-wrapper">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot active" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Live Enterntainment Your Way.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-3 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Make Connections</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(2)">Brands</li>
+                  <li onclick="currentSlide(3)">Venues</li>
+                  <li onclick="currentSlide(4)">Fans</li>
+                  <li onclick="currentSlide(5)">Entertainers</li>
+                </ul>
+                <p>
+                  Watch paid of free broadcasts, <br />
+                  find local events & buy tickets, <br />
+                  and book virutal meet & greets <br />
+                  with celebs.
+                </p>
+                <div class="dots-wrapper">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot active" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Meet.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-4 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Growth & Engagement</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(2)">Brands</li>
+                  <li onclick="currentSlide(3)">Venues</li>
+                  <li onclick="currentSlide(4)">Fans</li>
+                  <li onclick="currentSlide(5)">Entertainers</li>
+                </ul>
+                <p>
+                  Gain exposure and make more <br />
+                  money by utilizing Feature’s <br />
+                  marketplace to book performances <br />
+                  and monetize their fan base.
+                </p>
+                <div class="dots-wrapper">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot active" onclick="currentSlide(5)"></span>
+                </div>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Phone Mock.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature slider end -->
+
+      <section class="front">
+        <h2 class="section__title desktop-show">
+          MAKE MONEY THROUGH <br />
+          FEATURE’S SEAMLESS <br />
+          PLATFORM
+        </h2>
+        <h2 class="section__title desktop-hidden">
+          Do What You <br />
+          Love. Make <br />
+          Money Now
+        </h2>
+        <div class="desktop-hidden text-center"><a href="#" class="btn join__now">JOIN NOW</a></div>
+        <div class="flex social-btns">
+          <a class="app-btn blu flex vert" href="http:apple.com">
+            <i class="fab fa-apple"></i>
+            <p>
+              Download on the <br />
+              <span class="big-txt">App Store</span>
+            </p>
+          </a>
+
+          <a class="app-btn blu flex vert" href="http:google.com">
+            <i class="fab fa-google-play"></i>
+            <p>
+              Get app on <br />
+              <span class="big-txt">Google Play</span>
+            </p>
+          </a>
+        </div>
+      </section>
+      <section class="showcase gain__revenue">
+        <div class="showcase__content">
+          <h2 class="desktop-hidden section__title">
+            Make Money <br />
+            as an Artist <br />
+            on Feature
+          </h2>
+          <h2 class="desktop-show">Gain Revenue</h2>
+          <h2 class="desktop-hidden">Generate Revenue</h2>
+          <p>Seamless integration within the app to create virtual or in-person events and sell access passes right from the app.</p>
+        </div>
+        <div class="showcase__image"><img src="../images/Video PNGs 2.png" alt="" height="450" /></div>
+      </section>
+      <section class="hundred">
+        <h1>100 %</h1>
+        <p>5.36 Billion livestream’s per day in the U.S. alone.</p>
+      </section>
+      <section class="showcase gain__revenue simplified__booking">
+        <div class="showcase__image"><img src="../images/Video PNGs 2.png" alt="" height="450" /></div>
+        <section class="join__feature desktop-hidden">
+          <h2 class="section__title">Join Feature and Start Making Money</h2>
+          <div><a href="#" class="btn join__now">JOIN NOW</a></div>
+        </section>
+        <div class="showcase__content">
+          <h2>Simplified Booking</h2>
+          <p>Seamless integration within the app to create virtual or in-person events and sell access passes right from the app.</p>
+        </div>
+      </section>
+
+      <section class="join__feature desktop-show">
+        <h2 class="section__title">
+          Join Feature and Start <br />
+          Making Money
+        </h2>
+        <div><a href="#" class="btn join__now">JOIN NOW</a></div>
+      </section>
+      <section class="hundred bg-orange">
+        <h1>93 %</h1>
+        <p>Growing fast. Live video grew with an average viewing time of 26.4 minutes per session.</p>
+      </section>
+      <section class="showcase gain__revenue">
+        <div class="showcase__content">
+          <h2>Live Broadcasts</h2>
+          <p>Set your own rules, charge for a boradcast or free with tip incentive from fans.</p>
+        </div>
+        <div class="showcase__image"><img src="../images/Video PNGs 2.png" alt="" height="450" /></div>
+      </section>
+      <section class="join__feature">
+        <h2 class="section__title">Start Making Money with Feature</h2>
+        <div><a href="#" class="btn join__now">JOIN NOW</a></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="col">
+          <div class="footer-logo">
+            <img src="../images/logo-transparent.png" alt="" width="250" />
+          </div>
+          <p>
+            Feature is redefning the live <br />
+            entertainment economy by <br />
+            empowering fans and artists to <br />
+            connect front and center in one <br />
+            platform.
+          </p>
+        </div>
+        <div class="col desktop-hidden mb-0">
+          <h4>ABOUT</h4>
+          <h4>FOR ARTISTS</h4>
+          <h4>CONTACT US</h4>
+        </div>
+        <div class="col desktop-show">
+          <h4>COMMUNITY</h4>
+          <p><a href="#">About</a></p>
+          <p><a href="">For Artists</a></p>
+        </div>
+        <div class="col desktop-show">
+          <h4>GET THE APP</h4>
+          <p><a href="#">App Store</a></p>
+          <p><a href="">For Android</a></p>
+        </div>
+        <div class="col desktop-hidden">
+          <div class="flex social-btns">
+            <a class="app-btn blu flex vert" href="http:apple.com">
+              <i class="fab fa-apple"></i>
+              <p>
+                Download on the <br />
+                <span class="big-txt">App Store</span>
+              </p>
+            </a>
+
+            <a class="app-btn blu flex vert" href="http:google.com">
+              <i class="fab fa-google-play"></i>
+              <p>
+                Get app on <br />
+                <span class="big-txt">Google Play</span>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="col desktop-show">
+          <h4>CONTACT US</h4>
+          <p><a href="mailto:info@featureapp.co">E: info@featureapp.co</a></p>
+          <p><a href="">For Android</a></p>
+          <div class="flex social-btns">
+            <a class="app-btn blu flex vert" href="http:apple.com">
+              <i class="fab fa-apple"></i>
+              <p>
+                Download on the <br />
+                <span class="big-txt">App Store</span>
+              </p>
+            </a>
+
+            <a class="app-btn blu flex vert" href="http:google.com">
+              <i class="fab fa-google-play"></i>
+              <p>
+                Get app on <br />
+                <span class="big-txt">Google Play</span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/artist.js"></script>
+  </body>
+</html>
